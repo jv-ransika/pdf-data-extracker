@@ -24,6 +24,6 @@ def pdf_to_csv(pdf_path, csv_path):
 # Example usage
 # pdf_to_csv('POS Transaction History Ext Jan - Dec 2015.pdf', 'output.csv')
 
-pdf = Pdf('/home/ransika/Documents/Projects/pdf-extracker', 'POS Transaction History Ext Jan - Dec 2015.pdf')
+pdf = Pdf('/home/ransika/Documents/Projects/pdf-data-extracker', 'POS Transaction History Ext Jan - Dec 2015.pdf')
 
 pdf.to_csv()
