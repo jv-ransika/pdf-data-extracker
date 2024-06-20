@@ -12,7 +12,7 @@ def process_pdf(DIR, pdf_path):
     window['p_count_l'].update(f'{pp_count} pages processed from {p_count} pages')
 
     for _ in p.to_csv():
-        pp_count += 10
+        pp_count += 1
         window['p_bar_2'].update(current_count=pp_count)
         window['p_count_l'].update(f'{pp_count} pages processed from {p_count} pages')
 
